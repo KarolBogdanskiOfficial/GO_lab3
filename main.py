@@ -13,6 +13,9 @@ pp.pprint(tree)
 
 test_point = [13, 25]      #testowy punkt dla którego wyszukujemy najbliższy punkt z chmury
 result = Tree.tree_closest_point(tree, test_point)
+print("Podany punkt: ")
+print(test_point)
+print(" najbliższy punkt: ")
 print(result)
 
                         #GUI
